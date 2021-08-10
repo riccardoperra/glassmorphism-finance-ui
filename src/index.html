@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Glassmorphism Balance UI</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="../icon.png" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.scss" />
+    <link rel="stylesheet" href="styles/app.scss" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="app-header">
+        <div class="header-title">Dashboard</div>
+        <div class="header-actions">
+          <div class="theme-switcher">
+            <i class="fas fa-fw fa-moon"></i>
+            <div class="slider-content">
+              <div class="slider-toggle-wrapper">
+                <div class="slider-toggle is-selected"></div>
+              </div>
+            </div>
+            <i class="fas fa-fw fa-sun"></i>
+          </div>
+        </div>
+      </div>
+      <div class="app-wrapper">
+        <div class="app-sidebar">
+          <div class="side-menu-wrapper">
+            <div class="side-menu">
+              <a href="#" class="">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Overview</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-fw fa-wallet"></i>
+                <span>Exchange</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-fw fa-credit-card"></i>
+                <span>Cards</span>
+              </a>
+            </div>
+            <div class="side-menu"></div>
+            <div class="side-menu"></div>
+          </div>
+        </div>
+        <div class="app-content">
+          <div class="main-header">
+            <a class="main-header-title">Overview</a>
+          </div>
+          <div class="content-wrapper">
+            <div class="profile-content">
+              <div class="img-badge">
+                <img src="img/46.jpg" />
+              </div>
+              <span class="profile-message">Good evening, Riccardo!</span>
+            </div>
+
+            <div class="content-section overview">
+              <div class="overview-card">
+                <h3 class="overview-card-title">Balance</h3>
+                <div class="overview-content">
+                  <span class="text-lg">0</span>
+                  <span class="text-sm">$</span>
+                </div>
+              </div>
+              <div class="overview-card insert-widget-card">
+                <div>Add widget</div>
+                <div><i class="square-icon">+</i></div>
+              </div>
+            </div>
+
+            <div class="content-section new-payment">
+              <div class="content-section-title">Send a new payment</div>
+              <div class="badge-list">
+                <span class="badge">AP</span>
+                <span class="badge">RP</span>
+                <span class="badge">LF</span>
+                <span class="badge">G</span>
+                <span class="badge">JD</span>
+              </div>
+            </div>
+
+            <div class="content-section recent-transactions">
+              <div class="content-section-title">Recent transactions</div>
+              <ul class="recent-transaction-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
