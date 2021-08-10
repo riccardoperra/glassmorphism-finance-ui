@@ -1,7 +1,7 @@
 {
-  "name": "credit-card-ui",
+  "name": "glassmorphism-finance-ui-dashboard",
   "version": "0.1.0",
-  "description": "Credit card stack animation with html and vanilla js",
+  "description": "Glassmorphism finance ui dashboard",
   "license": "MIT",
   "author": "Riccardo Perra <riccardo.perra@icloud.com>",
   "scripts": {
